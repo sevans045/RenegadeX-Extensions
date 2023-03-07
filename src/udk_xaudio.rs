@@ -42,6 +42,7 @@ pub fn init() -> anyhow::Result<()> {
             )
             .context("Failed to setup InitializeHardware hook")?;
 
+        // Comment this out temporarily
         //XAudio2CreateHook.enable()?;
     }
 
